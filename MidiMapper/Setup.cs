@@ -4,7 +4,8 @@ using System.Text;
 
 namespace MidiMapper.Model
 {
-    class Enums
+    public class Setup
     {
+        public List<Zone> Zones { get; set; }
     }
 }
